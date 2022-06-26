@@ -1,0 +1,29 @@
+{
+  "buckets": [
+    {
+      "title": "Have a 'no-social-media' day",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "title": "Bungee jump with a funny suit",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Host a 'terrible movie' night",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "Get a tattoo with no meaning",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "Count to infinity twice",
+      "completed": true,
+      "id": 5
+    }
+  ]
+}

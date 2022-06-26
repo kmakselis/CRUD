@@ -1,0 +1,149 @@
+.layout {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(./assets/colors.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.crazy-container {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(350deg);
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
+
+.crazy-C,
+.crazy-R,
+.crazy-A,
+.crazy-Z,
+.crazy-Y {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.footer {
+  justify-self: flex-end;
+}
+
+.todo-list-container {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #fffcf7;
+  min-height: 80vh;
+  width: 750px;
+  margin: 40px auto;
+  padding: 70px;
+  border-radius: 2px;
+}
+
+.tasks-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  height: 35px;
+  width: 100%;
+  background-color: red;
+  border-radius: 2px;
+}
+
+.tasks-header {
+  padding: 15px 20px 0px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.add-todo-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  /* margin-bottom: 20px; */
+}
+
+.add-todo-form>input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.add-todo-form>input:focus {
+  border-bottom: 1px solid #d9874d;
+  outline: none;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todo-list__item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.todo-list__item__text {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.checkbox {
+  height: 25px;
+  width: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: snow;
+}
+
+.checkbox.checked {
+  background-color: orange;
+  text-align: center;
+}
+
+.checkbox.checked::before {
+  display: inline-block;
+  content: '';
+  height: 15px;
+  width: 6px;
+  border: 2px solid black;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+
+.button {
+  display: inline-grid;
+  place-items: center;
+  background-color: red;
+  padding: 0 5px;
+  margin: 8px;
+}
+
+.button-update {
+  display: inline-grid;
+  place-items: center;
+  background-color: lawngreen;
+  padding: 0 5px;
+  margin: 8px;
+  border-radius: 50px;
+}
+
+.button-delete {
+  display: inline-grid;
+  place-items: center;
+  background-color: red;
+  padding: 0 5px;
+  margin: 8px;
+}
